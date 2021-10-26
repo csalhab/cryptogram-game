@@ -65,7 +65,10 @@ section {
 }
 
 .flex-container {
-  padding: 0;
+  padding-left: 50px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   margin: 0;
   list-style: none;
   display: flex;
@@ -102,12 +105,10 @@ section {
 
 .directions-leftside {
   text-align: right;
-  border: 1px solid blue;
 }
 
 .directions-rightside {
   text-align: left;
-  border: 1px solid red;
 }
 
 .word-guess {
